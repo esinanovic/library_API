@@ -29,17 +29,18 @@ Base de données gérée via Prisma ORM
 - npm
 
 ## Arborescence du projet
-.
-├── prisma/                # Schéma Prisma et migrations
-├── requestHandlers/       # Handlers des routes API
-│   ├── author.ts          # Endpoints liés aux auteurs
-│   ├── book.ts            # Endpoints liés aux livres
-│   └── tag.ts             # Endpoints liés aux tags
-├── src/                   # Code source principal
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-└── .gitignore
+
+- prisma/
+  - schema.prisma        # Schéma Prisma et migrations
+- requestHandlers/
+  - author.ts            # Endpoints liés aux auteurs
+  - book.ts              # Endpoints liés aux livres
+  - tag.ts               # Endpoints liés aux tags
+- src/                   # Code source principal
+- package.json
+- package-lock.json
+- tsconfig.json
+- .gitignore
 
 
 
